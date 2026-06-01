@@ -1,24 +1,3 @@
-# Music-Player-Web-Application
-A full-stack web application designed for streaming music, featuring user authentication, playlist management, and an admin dashboard for content management. Built with PHP, MySQL, JavaScript, HTML, and CSS.
-
-User Features
-Authentication: Secure user registration and login system.
-Search Functionality: Easily search for songs, artists, or albums.
-Playlist Management: Users can add songs to their personal playlist and remove them as needed.
-Music Player: An integrated audio player that handles playback, seeking, and volume control.
-
-Admin Features
-Content Management: Admins can upload new songs (MP3) and cover images directly.
-Library Control: Admins can edit song details (title, artist, album, duration) or delete songs from the database.
-User Management: Admins can view all registered users, manage user roles (Admin/User), and remove accounts.
-
-🛠 Tech Stack
-Frontend: HTML5, CSS3 (Custom responsive styling), JavaScript
-Backend: PHP
-Database: MySQL
-Authentication: PHP Sessions and Password Hashing (password_hash, password_verify)
----------------------------------------------------------------------------------------------------------------------------------------
-
 <div align="center">
   <h1>🎵 Music Player Web Application</h1>
   <p>A full-stack web application designed for streaming music with user authentication.</p>
@@ -67,6 +46,6 @@ Authentication: PHP Sessions and Password Hashing (password_hash, password_verif
 
 <div align="center">
   <h3>🛠 Installation</h3>
-  <pre>git clone https://github.com/yourusername/your-repo-name.git</pre>
+  <pre>git clone https://github.com/Shreyash-2007/Music-Player-Web-Application.git</pre>
   <p>Run via XAMPP/WAMP and import the <code>database.sql</code> file.</p>
 </div>
