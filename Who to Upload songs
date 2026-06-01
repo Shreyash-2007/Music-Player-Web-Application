@@ -1,0 +1,13 @@
+This application manages media files directly through the server's filesystem. To add new music to your library, please follow these steps:
+Prepare Your Files: Ensure your audio files are in .mp3 format and your cover images are in a common format like .jpg or .png.
+Upload Directories: The application uses the uploads/ directory in the project root. Ensure your server has write permissions for these subfolders:
+uploads/songs/: Place your music files here.
+uploads/covers/: Place your song cover art images here.
+
+Add via Admin Panel:
+Log in to the application using an account with Admin privileges.
+Navigate to the Admin Dashboard.
+Fill in the song details (Title, Artist, Album, Duration).
+Upload the music file and cover image using the provided form.
+
+The system will automatically store the files in the appropriate folders and update the MySQL database so the song appears in the main feed.
